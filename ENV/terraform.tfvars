@@ -25,3 +25,21 @@ varenvsa={
   }
 
 }
+
+varenvvn={
+  vn01 = {
+    name                = "vntd01"
+    location            = "swedencentral"
+    resource_group_name = "rgd01"
+    address_space       = ["10.0.0.0/24"]
+  }
+
+  vn01 = {
+    name                = "vntd02"
+    location            = "swedencentral"
+    resource_group_name = "rgd02"
+    address_space       = ["10.0.0.0/24"]
+  }  
+
+
+}
