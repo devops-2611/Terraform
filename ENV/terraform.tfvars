@@ -40,6 +40,22 @@ varenvvn={
     resource_group_name = "rgd02"
     address_space       = ["10.0.0.0/24"]
   }  
+}
 
+varenvsn = {
+  sn01 = {
+    name                 = "sntd01"
+    resource_group_name  = "rgd01"
+    virtual_network_name = "vntd01"
+    address_prefixes     = ["10.0.1.0/28"]
 
+  }
+
+  sn02 = {
+    name                 = "sntd02"
+    resource_group_name  = "rgd02"
+    virtual_network_name = "vntd02"
+    address_prefixes     = ["10.0.2.0/28"]
+
+  }
 }
