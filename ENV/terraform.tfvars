@@ -31,14 +31,14 @@ varenvvn={
     name                = "vntd01"
     location            = "swedencentral"
     resource_group_name = "rgd01"
-    address_space       = ["10.0.0.0/24"]
+    address_space       = ["10.0.0.0/16"]
   }
 
-  vn01 = {
+  vn02 = {
     name                = "vntd02"
     location            = "swedencentral"
     resource_group_name = "rgd02"
-    address_space       = ["10.0.0.0/24"]
+    address_space       = ["10.0.0.0/16"]
   }  
 }
 
